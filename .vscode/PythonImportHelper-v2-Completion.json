@@ -1,0 +1,506 @@
+[
+    {
+        "label": "CandidateState",
+        "importPath": "CandidateState",
+        "description": "CandidateState",
+        "isExtraImport": true,
+        "detail": "CandidateState",
+        "documentation": {
+            "value": "\n```python\nimport CandidateState\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "UninformedSearch",
+        "importPath": "UninformedSearch",
+        "description": "UninformedSearch",
+        "isExtraImport": true,
+        "detail": "UninformedSearch",
+        "documentation": {
+            "value": "\n```python\nimport UninformedSearch\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "algorithms",
+        "importPath": "UninformedSearch",
+        "description": "UninformedSearch",
+        "isExtraImport": true,
+        "detail": "UninformedSearch",
+        "documentation": {
+            "value": "\n```python\nimport UninformedSearch\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "UninformedSearch",
+        "importPath": "algorithms.UninformedSearch",
+        "description": "algorithms.UninformedSearch",
+        "isExtraImport": true,
+        "detail": "algorithms.UninformedSearch",
+        "documentation": {
+            "value": "\n```python\nimport algorithms.UninformedSearch\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "algorithms",
+        "importPath": "algorithms.UninformedSearch",
+        "description": "algorithms.UninformedSearch",
+        "isExtraImport": true,
+        "detail": "algorithms.UninformedSearch",
+        "documentation": {
+            "value": "\n```python\nimport algorithms.UninformedSearch\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "UninformedSearch",
+        "importPath": "algorithms.UninformedSearch",
+        "description": "algorithms.UninformedSearch",
+        "isExtraImport": true,
+        "detail": "algorithms.UninformedSearch",
+        "documentation": {
+            "value": "\n```python\nimport algorithms.UninformedSearch\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "algorithms",
+        "importPath": "algorithms.UninformedSearch",
+        "description": "algorithms.UninformedSearch",
+        "isExtraImport": true,
+        "detail": "algorithms.UninformedSearch",
+        "documentation": {
+            "value": "\n```python\nimport algorithms.UninformedSearch\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "UninformedSearch",
+        "importPath": "algorithms.UninformedSearch",
+        "description": "algorithms.UninformedSearch",
+        "isExtraImport": true,
+        "detail": "algorithms.UninformedSearch",
+        "documentation": {
+            "value": "\n```python\nimport algorithms.UninformedSearch\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "algorithms",
+        "importPath": "algorithms.UninformedSearch",
+        "description": "algorithms.UninformedSearch",
+        "isExtraImport": true,
+        "detail": "algorithms.UninformedSearch",
+        "documentation": {
+            "value": "\n```python\nimport algorithms.UninformedSearch\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "*",
+        "importPath": "algorithms.UninformedSearch",
+        "description": "algorithms.UninformedSearch",
+        "isExtraImport": true,
+        "detail": "algorithms.UninformedSearch",
+        "documentation": {
+            "value": "\n```python\nimport algorithms.UninformedSearch\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "*",
+        "importPath": "algorithms.CandidateState",
+        "description": "algorithms.CandidateState",
+        "isExtraImport": true,
+        "detail": "algorithms.CandidateState",
+        "documentation": {
+            "value": "\n```python\nimport algorithms.CandidateState\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "*",
+        "importPath": "exercicio4.VacuumCleanerWorld",
+        "description": "exercicio4.VacuumCleanerWorld",
+        "isExtraImport": true,
+        "detail": "exercicio4.VacuumCleanerWorld",
+        "documentation": {
+            "value": "\n```python\nimport exercicio4.VacuumCleanerWorld\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "CandidateState",
+        "kind": 6,
+        "importPath": "algorithms.CandidateState",
+        "description": "algorithms.CandidateState",
+        "peekOfCode": "class CandidateState:\n  def __init__(self, state, parent=None, action=None):\n    self.state = state\n    self.parent = parent\n    self.action = action\n    self.children = []\n  def getSuccessors(self):\n    actions = self.state.getActions()\n    successors = []\n    #clone = []",
+        "detail": "algorithms.CandidateState",
+        "documentation": {
+            "value": "\n```python\nfrom algorithms.CandidateState import CandidateState\n```\n\n```python\n\n\n```\n\n```python\nclass CandidateState:\n  def __init__(self, state, parent=None, action=None):\n    self.state = state\n    self.parent = parent\n    self.action = action\n    self.children = []\n  def getSuccessors(self):\n    actions = self.state.getActions()\n    successors = []\n    #clone = []\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "UninformedSearch",
+        "kind": 6,
+        "importPath": "algorithms.UninformedSearch",
+        "description": "algorithms.UninformedSearch",
+        "peekOfCode": "class UninformedSearch:\n  def __init__(self, initialState, finalStates):\n    self.initialState = initialState\n    self.finalStates = finalStates\n  def search(self, type):\n    visited = []\n    candidate = CandidateState(self.initialState)\n    pending = [ candidate ]\n    i = 0\n    cont = 0",
+        "detail": "algorithms.UninformedSearch",
+        "documentation": {
+            "value": "\n```python\nfrom algorithms.UninformedSearch import UninformedSearch\n```\n\n```python\n\n\n```\n\n```python\nclass UninformedSearch:\n  def __init__(self, initialState, finalStates):\n    self.initialState = initialState\n    self.finalStates = finalStates\n  def search(self, type):\n    visited = []\n    candidate = CandidateState(self.initialState)\n    pending = [ candidate ]\n    i = 0\n    cont = 0\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "algorithms",
+        "kind": 5,
+        "importPath": "algorithms.UninformedSearch",
+        "description": "algorithms.UninformedSearch",
+        "peekOfCode": "algorithms = {\n  \"DSF\": 'dsf',\n  \"BSF\": 'bsf'\n}\nclass UninformedSearch:\n  def __init__(self, initialState, finalStates):\n    self.initialState = initialState\n    self.finalStates = finalStates\n  def search(self, type):\n    visited = []",
+        "detail": "algorithms.UninformedSearch",
+        "documentation": {
+            "value": "\n```python\nfrom algorithms.UninformedSearch import algorithms\n```\n\n```python\n\n\n```\n\n```python\nalgorithms = {\n  \"DSF\": 'dsf',\n  \"BSF\": 'bsf'\n}\nclass UninformedSearch:\n  def __init__(self, initialState, finalStates):\n    self.initialState = initialState\n    self.finalStates = finalStates\n  def search(self, type):\n    visited = []\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "ChickenCrossingPuzzle",
+        "kind": 6,
+        "importPath": "exercicio4.ChickenCrossingPuzzle",
+        "description": "exercicio4.ChickenCrossingPuzzle",
+        "peekOfCode": "class ChickenCrossingPuzzle:\n  def __init__(self, farmerState, foxState, chickenState, cornState):\n    self.farmerState = farmerState\n    self.foxState = foxState\n    self.chickenState = chickenState\n    self.cornState = cornState\n  def getActions(self):\n    list = []\n    if (self.farmerState == states['LEFT']):\n      if ((self.foxState != self.chickenState) and (self.chickenState != self.cornState)):",
+        "detail": "exercicio4.ChickenCrossingPuzzle",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.ChickenCrossingPuzzle import ChickenCrossingPuzzle\n```\n\n```python\n\n\n```\n\n```python\nclass ChickenCrossingPuzzle:\n  def __init__(self, farmerState, foxState, chickenState, cornState):\n    self.farmerState = farmerState\n    self.foxState = foxState\n    self.chickenState = chickenState\n    self.cornState = cornState\n  def getActions(self):\n    list = []\n    if (self.farmerState == states['LEFT']):\n      if ((self.foxState != self.chickenState) and (self.chickenState != self.cornState)):\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "states",
+        "kind": 5,
+        "importPath": "exercicio4.ChickenCrossingPuzzle",
+        "description": "exercicio4.ChickenCrossingPuzzle",
+        "peekOfCode": "states = {\n  'LEFT': 'left',\n  'RIGHT': 'right'\n}\nactions = {\n    'GOALONE': 'go-alone',\n    'GOWITHFOX': 'go-with-fox',\n    'GOWITHCHICKEN': 'go-with-chicken',\n    'GOWITHCORN': 'go-with-corn',\n    'COMEBACKALONE': 'come-back-alone',",
+        "detail": "exercicio4.ChickenCrossingPuzzle",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.ChickenCrossingPuzzle import states\n```\n\n```python\n\n\n```\n\n```python\nstates = {\n  'LEFT': 'left',\n  'RIGHT': 'right'\n}\nactions = {\n    'GOALONE': 'go-alone',\n    'GOWITHFOX': 'go-with-fox',\n    'GOWITHCHICKEN': 'go-with-chicken',\n    'GOWITHCORN': 'go-with-corn',\n    'COMEBACKALONE': 'come-back-alone',\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "actions",
+        "kind": 5,
+        "importPath": "exercicio4.ChickenCrossingPuzzle",
+        "description": "exercicio4.ChickenCrossingPuzzle",
+        "peekOfCode": "actions = {\n    'GOALONE': 'go-alone',\n    'GOWITHFOX': 'go-with-fox',\n    'GOWITHCHICKEN': 'go-with-chicken',\n    'GOWITHCORN': 'go-with-corn',\n    'COMEBACKALONE': 'come-back-alone',\n    'COMEBACKWITHFOX': 'come-back-with-fox',\n    'COMEBACKWITHCHICKEN': 'come-back-with-chicken',\n    'COMEBACKWITHCORN': 'come-back-with-corn',    \n}",
+        "detail": "exercicio4.ChickenCrossingPuzzle",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.ChickenCrossingPuzzle import actions\n```\n\n```python\n\n\n```\n\n```python\nactions = {\n    'GOALONE': 'go-alone',\n    'GOWITHFOX': 'go-with-fox',\n    'GOWITHCHICKEN': 'go-with-chicken',\n    'GOWITHCORN': 'go-with-corn',\n    'COMEBACKALONE': 'come-back-alone',\n    'COMEBACKWITHFOX': 'come-back-with-fox',\n    'COMEBACKWITHCHICKEN': 'come-back-with-chicken',\n    'COMEBACKWITHCORN': 'come-back-with-corn',    \n}\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "initial",
+        "kind": 5,
+        "importPath": "exercicio4.ChickenCrossingPuzzle",
+        "description": "exercicio4.ChickenCrossingPuzzle",
+        "peekOfCode": "initial = ChickenCrossingPuzzle(states['LEFT'], states['LEFT'], states['LEFT'], states['LEFT'])\nfinals = [ ChickenCrossingPuzzle(states['RIGHT'], states['RIGHT'], states['RIGHT'], states['RIGHT']) ]\nproblem = UninformedSearch(initial, finals)\nresult = problem.search(algorithms['DSF'])\nif (result):\n  for r in result:\n    print(r)",
+        "detail": "exercicio4.ChickenCrossingPuzzle",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.ChickenCrossingPuzzle import initial\n```\n\n```python\n\n\n```\n\n```python\ninitial = ChickenCrossingPuzzle(states['LEFT'], states['LEFT'], states['LEFT'], states['LEFT'])\nfinals = [ ChickenCrossingPuzzle(states['RIGHT'], states['RIGHT'], states['RIGHT'], states['RIGHT']) ]\nproblem = UninformedSearch(initial, finals)\nresult = problem.search(algorithms['DSF'])\nif (result):\n  for r in result:\n    print(r)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "finals",
+        "kind": 5,
+        "importPath": "exercicio4.ChickenCrossingPuzzle",
+        "description": "exercicio4.ChickenCrossingPuzzle",
+        "peekOfCode": "finals = [ ChickenCrossingPuzzle(states['RIGHT'], states['RIGHT'], states['RIGHT'], states['RIGHT']) ]\nproblem = UninformedSearch(initial, finals)\nresult = problem.search(algorithms['DSF'])\nif (result):\n  for r in result:\n    print(r)",
+        "detail": "exercicio4.ChickenCrossingPuzzle",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.ChickenCrossingPuzzle import finals\n```\n\n```python\n\n\n```\n\n```python\nfinals = [ ChickenCrossingPuzzle(states['RIGHT'], states['RIGHT'], states['RIGHT'], states['RIGHT']) ]\nproblem = UninformedSearch(initial, finals)\nresult = problem.search(algorithms['DSF'])\nif (result):\n  for r in result:\n    print(r)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "problem",
+        "kind": 5,
+        "importPath": "exercicio4.ChickenCrossingPuzzle",
+        "description": "exercicio4.ChickenCrossingPuzzle",
+        "peekOfCode": "problem = UninformedSearch(initial, finals)\nresult = problem.search(algorithms['DSF'])\nif (result):\n  for r in result:\n    print(r)",
+        "detail": "exercicio4.ChickenCrossingPuzzle",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.ChickenCrossingPuzzle import problem\n```\n\n```python\n\n\n```\n\n```python\nproblem = UninformedSearch(initial, finals)\nresult = problem.search(algorithms['DSF'])\nif (result):\n  for r in result:\n    print(r)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "exercicio4.ChickenCrossingPuzzle",
+        "description": "exercicio4.ChickenCrossingPuzzle",
+        "peekOfCode": "result = problem.search(algorithms['DSF'])\nif (result):\n  for r in result:\n    print(r)",
+        "detail": "exercicio4.ChickenCrossingPuzzle",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.ChickenCrossingPuzzle import result\n```\n\n```python\n\n\n```\n\n```python\nresult = problem.search(algorithms['DSF'])\nif (result):\n  for r in result:\n    print(r)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "SizeNPuzzle",
+        "kind": 6,
+        "importPath": "exercicio4.SizeNPuzzle",
+        "description": "exercicio4.SizeNPuzzle",
+        "peekOfCode": "class SizeNPuzzle:\n  def __init__(self, matrix):\n    self.matrix = []\n    for x in range(len(matrix)):\n      self.matrix.append([])\n      for y in range(len(matrix[x])):\n        \tself.matrix[x].append(matrix[x][y])\n  def doAction(self, action):\n    state = self.clone()\n    i = 0",
+        "detail": "exercicio4.SizeNPuzzle",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.SizeNPuzzle import SizeNPuzzle\n```\n\n```python\n\n\n```\n\n```python\nclass SizeNPuzzle:\n  def __init__(self, matrix):\n    self.matrix = []\n    for x in range(len(matrix)):\n      self.matrix.append([])\n      for y in range(len(matrix[x])):\n        \tself.matrix[x].append(matrix[x][y])\n  def doAction(self, action):\n    state = self.clone()\n    i = 0\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "actions",
+        "kind": 5,
+        "importPath": "exercicio4.SizeNPuzzle",
+        "description": "exercicio4.SizeNPuzzle",
+        "peekOfCode": "actions = {\n    'MOVEUP': 'move-up',\n    'MOVEDOWN': 'move-down',\n    'MOVELEFT': 'move-left',\n    'MOVERIGHT': 'move-right'  \n}\nclass SizeNPuzzle:\n  def __init__(self, matrix):\n    self.matrix = []\n    for x in range(len(matrix)):",
+        "detail": "exercicio4.SizeNPuzzle",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.SizeNPuzzle import actions\n```\n\n```python\n\n\n```\n\n```python\nactions = {\n    'MOVEUP': 'move-up',\n    'MOVEDOWN': 'move-down',\n    'MOVELEFT': 'move-left',\n    'MOVERIGHT': 'move-right'  \n}\nclass SizeNPuzzle:\n  def __init__(self, matrix):\n    self.matrix = []\n    for x in range(len(matrix)):\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "initial",
+        "kind": 5,
+        "importPath": "exercicio4.SizeNPuzzle",
+        "description": "exercicio4.SizeNPuzzle",
+        "peekOfCode": "initial = SizeNPuzzle(\n    [\n        [   4,    2,    7],\n        [None,    8,    6],\n        [   3,    5,    1]\n    ]\n)\nfinals = [\n        SizeNPuzzle(\n            [",
+        "detail": "exercicio4.SizeNPuzzle",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.SizeNPuzzle import initial\n```\n\n```python\n\n\n```\n\n```python\ninitial = SizeNPuzzle(\n    [\n        [   4,    2,    7],\n        [None,    8,    6],\n        [   3,    5,    1]\n    ]\n)\nfinals = [\n        SizeNPuzzle(\n            [\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "finals",
+        "kind": 5,
+        "importPath": "exercicio4.SizeNPuzzle",
+        "description": "exercicio4.SizeNPuzzle",
+        "peekOfCode": "finals = [\n        SizeNPuzzle(\n            [\n                [   1,   4,   7],\n                [   2,   5,   8],\n                [   3,   6,None]\n            ]\n        )\n    ]\nproblem = UninformedSearch(initial, finals)",
+        "detail": "exercicio4.SizeNPuzzle",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.SizeNPuzzle import finals\n```\n\n```python\n\n\n```\n\n```python\nfinals = [\n        SizeNPuzzle(\n            [\n                [   1,   4,   7],\n                [   2,   5,   8],\n                [   3,   6,None]\n            ]\n        )\n    ]\nproblem = UninformedSearch(initial, finals)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "problem",
+        "kind": 5,
+        "importPath": "exercicio4.SizeNPuzzle",
+        "description": "exercicio4.SizeNPuzzle",
+        "peekOfCode": "problem = UninformedSearch(initial, finals)\nresult = problem.search(algorithms['DSF'])\nif (result):\n  for r in result:\n    print(r)",
+        "detail": "exercicio4.SizeNPuzzle",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.SizeNPuzzle import problem\n```\n\n```python\n\n\n```\n\n```python\nproblem = UninformedSearch(initial, finals)\nresult = problem.search(algorithms['DSF'])\nif (result):\n  for r in result:\n    print(r)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "exercicio4.SizeNPuzzle",
+        "description": "exercicio4.SizeNPuzzle",
+        "peekOfCode": "result = problem.search(algorithms['DSF'])\nif (result):\n  for r in result:\n    print(r)",
+        "detail": "exercicio4.SizeNPuzzle",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.SizeNPuzzle import result\n```\n\n```python\n\n\n```\n\n```python\nresult = problem.search(algorithms['DSF'])\nif (result):\n  for r in result:\n    print(r)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "VacuumCleanerWorld",
+        "kind": 6,
+        "importPath": "exercicio4.VacuumCleanerWorld",
+        "description": "exercicio4.VacuumCleanerWorld",
+        "peekOfCode": "class VacuumCleanerWorld:\n  def __init__(self, vacuumPosition, room1State, room2State, room3State):\n    self.vacuumPosition = vacuumPosition\n    self.room1State = room1State\n    self.room2State = room2State\n    self.room3State = room3State\n  def getActions(self):\n    list = []\n    if (self.vacuumPosition == positions[\"ROOM1\"]):\n      if (self.room1State == states[\"DIRTY\"]):",
+        "detail": "exercicio4.VacuumCleanerWorld",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.VacuumCleanerWorld import VacuumCleanerWorld\n```\n\n```python\n\n\n```\n\n```python\nclass VacuumCleanerWorld:\n  def __init__(self, vacuumPosition, room1State, room2State, room3State):\n    self.vacuumPosition = vacuumPosition\n    self.room1State = room1State\n    self.room2State = room2State\n    self.room3State = room3State\n  def getActions(self):\n    list = []\n    if (self.vacuumPosition == positions[\"ROOM1\"]):\n      if (self.room1State == states[\"DIRTY\"]):\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "positions",
+        "kind": 5,
+        "importPath": "exercicio4.VacuumCleanerWorld",
+        "description": "exercicio4.VacuumCleanerWorld",
+        "peekOfCode": "positions = {\n  \"ROOM1\": 'room1',\n  \"ROOM2\": 'room2',\n  \"ROOM3\": 'room3'\n}\nstates = {\n  \"DIRTY\": 'dirty',\n  \"CLEAN\": 'clean'\n}\nactions = {",
+        "detail": "exercicio4.VacuumCleanerWorld",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.VacuumCleanerWorld import positions\n```\n\n```python\n\n\n```\n\n```python\npositions = {\n  \"ROOM1\": 'room1',\n  \"ROOM2\": 'room2',\n  \"ROOM3\": 'room3'\n}\nstates = {\n  \"DIRTY\": 'dirty',\n  \"CLEAN\": 'clean'\n}\nactions = {\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "states",
+        "kind": 5,
+        "importPath": "exercicio4.VacuumCleanerWorld",
+        "description": "exercicio4.VacuumCleanerWorld",
+        "peekOfCode": "states = {\n  \"DIRTY\": 'dirty',\n  \"CLEAN\": 'clean'\n}\nactions = {\n  \"GOTOROOM1\": 'go-to-room-1',\n  \"GOTOROOM2\": 'go-to-room-2',\n  \"GOTOROOM3\": 'go-to-room-3',\n  \"CLEAR\": 'clear-room'\n}",
+        "detail": "exercicio4.VacuumCleanerWorld",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.VacuumCleanerWorld import states\n```\n\n```python\n\n\n```\n\n```python\nstates = {\n  \"DIRTY\": 'dirty',\n  \"CLEAN\": 'clean'\n}\nactions = {\n  \"GOTOROOM1\": 'go-to-room-1',\n  \"GOTOROOM2\": 'go-to-room-2',\n  \"GOTOROOM3\": 'go-to-room-3',\n  \"CLEAR\": 'clear-room'\n}\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "actions",
+        "kind": 5,
+        "importPath": "exercicio4.VacuumCleanerWorld",
+        "description": "exercicio4.VacuumCleanerWorld",
+        "peekOfCode": "actions = {\n  \"GOTOROOM1\": 'go-to-room-1',\n  \"GOTOROOM2\": 'go-to-room-2',\n  \"GOTOROOM3\": 'go-to-room-3',\n  \"CLEAR\": 'clear-room'\n}\nclass VacuumCleanerWorld:\n  def __init__(self, vacuumPosition, room1State, room2State, room3State):\n    self.vacuumPosition = vacuumPosition\n    self.room1State = room1State",
+        "detail": "exercicio4.VacuumCleanerWorld",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.VacuumCleanerWorld import actions\n```\n\n```python\n\n\n```\n\n```python\nactions = {\n  \"GOTOROOM1\": 'go-to-room-1',\n  \"GOTOROOM2\": 'go-to-room-2',\n  \"GOTOROOM3\": 'go-to-room-3',\n  \"CLEAR\": 'clear-room'\n}\nclass VacuumCleanerWorld:\n  def __init__(self, vacuumPosition, room1State, room2State, room3State):\n    self.vacuumPosition = vacuumPosition\n    self.room1State = room1State\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "initial",
+        "kind": 5,
+        "importPath": "exercicio4.VacuumCleanerWorld",
+        "description": "exercicio4.VacuumCleanerWorld",
+        "peekOfCode": "initial = VacuumCleanerWorld(positions[\"ROOM1\"], states[\"DIRTY\"], states[\"DIRTY\"], states[\"DIRTY\"])\nfinals = [\n    VacuumCleanerWorld(positions[\"ROOM1\"], states[\"CLEAN\"], states[\"CLEAN\"], states[\"CLEAN\"]),\n    VacuumCleanerWorld(positions[\"ROOM2\"], states[\"CLEAN\"], states[\"CLEAN\"], states[\"CLEAN\"]),\n    VacuumCleanerWorld(positions[\"ROOM3\"], states[\"CLEAN\"], states[\"CLEAN\"], states[\"CLEAN\"])\n  ]\nproblem = UninformedSearch(initial, finals)\nresult = problem.search(algorithms[\"DSF\"])\nif (result):\n  for r in result:",
+        "detail": "exercicio4.VacuumCleanerWorld",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.VacuumCleanerWorld import initial\n```\n\n```python\n\n\n```\n\n```python\ninitial = VacuumCleanerWorld(positions[\"ROOM1\"], states[\"DIRTY\"], states[\"DIRTY\"], states[\"DIRTY\"])\nfinals = [\n    VacuumCleanerWorld(positions[\"ROOM1\"], states[\"CLEAN\"], states[\"CLEAN\"], states[\"CLEAN\"]),\n    VacuumCleanerWorld(positions[\"ROOM2\"], states[\"CLEAN\"], states[\"CLEAN\"], states[\"CLEAN\"]),\n    VacuumCleanerWorld(positions[\"ROOM3\"], states[\"CLEAN\"], states[\"CLEAN\"], states[\"CLEAN\"])\n  ]\nproblem = UninformedSearch(initial, finals)\nresult = problem.search(algorithms[\"DSF\"])\nif (result):\n  for r in result:\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "finals",
+        "kind": 5,
+        "importPath": "exercicio4.VacuumCleanerWorld",
+        "description": "exercicio4.VacuumCleanerWorld",
+        "peekOfCode": "finals = [\n    VacuumCleanerWorld(positions[\"ROOM1\"], states[\"CLEAN\"], states[\"CLEAN\"], states[\"CLEAN\"]),\n    VacuumCleanerWorld(positions[\"ROOM2\"], states[\"CLEAN\"], states[\"CLEAN\"], states[\"CLEAN\"]),\n    VacuumCleanerWorld(positions[\"ROOM3\"], states[\"CLEAN\"], states[\"CLEAN\"], states[\"CLEAN\"])\n  ]\nproblem = UninformedSearch(initial, finals)\nresult = problem.search(algorithms[\"DSF\"])\nif (result):\n  for r in result:\n    print(r)",
+        "detail": "exercicio4.VacuumCleanerWorld",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.VacuumCleanerWorld import finals\n```\n\n```python\n\n\n```\n\n```python\nfinals = [\n    VacuumCleanerWorld(positions[\"ROOM1\"], states[\"CLEAN\"], states[\"CLEAN\"], states[\"CLEAN\"]),\n    VacuumCleanerWorld(positions[\"ROOM2\"], states[\"CLEAN\"], states[\"CLEAN\"], states[\"CLEAN\"]),\n    VacuumCleanerWorld(positions[\"ROOM3\"], states[\"CLEAN\"], states[\"CLEAN\"], states[\"CLEAN\"])\n  ]\nproblem = UninformedSearch(initial, finals)\nresult = problem.search(algorithms[\"DSF\"])\nif (result):\n  for r in result:\n    print(r)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "problem",
+        "kind": 5,
+        "importPath": "exercicio4.VacuumCleanerWorld",
+        "description": "exercicio4.VacuumCleanerWorld",
+        "peekOfCode": "problem = UninformedSearch(initial, finals)\nresult = problem.search(algorithms[\"DSF\"])\nif (result):\n  for r in result:\n    print(r)",
+        "detail": "exercicio4.VacuumCleanerWorld",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.VacuumCleanerWorld import problem\n```\n\n```python\n\n\n```\n\n```python\nproblem = UninformedSearch(initial, finals)\nresult = problem.search(algorithms[\"DSF\"])\nif (result):\n  for r in result:\n    print(r)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "exercicio4.VacuumCleanerWorld",
+        "description": "exercicio4.VacuumCleanerWorld",
+        "peekOfCode": "result = problem.search(algorithms[\"DSF\"])\nif (result):\n  for r in result:\n    print(r)",
+        "detail": "exercicio4.VacuumCleanerWorld",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.VacuumCleanerWorld import result\n```\n\n```python\n\n\n```\n\n```python\nresult = problem.search(algorithms[\"DSF\"])\nif (result):\n  for r in result:\n    print(r)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "WaterJars",
+        "kind": 6,
+        "importPath": "exercicio4.WaterJars",
+        "description": "exercicio4.WaterJars",
+        "peekOfCode": "class WaterJars:\n  def __init__(self, jar1State, jar2State):\n    self.jar1State = jar1State\n    self.jar2State = jar2State\n  def getActions(self):\n    list = []\n    if (self.jar1State < 3):\n      list.append(actions['FILL1'])\n    if (self.jar1State > 0):\n      list.append(actions['EMPTY1'])",
+        "detail": "exercicio4.WaterJars",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.WaterJars import WaterJars\n```\n\n```python\n\n\n```\n\n```python\nclass WaterJars:\n  def __init__(self, jar1State, jar2State):\n    self.jar1State = jar1State\n    self.jar2State = jar2State\n  def getActions(self):\n    list = []\n    if (self.jar1State < 3):\n      list.append(actions['FILL1'])\n    if (self.jar1State > 0):\n      list.append(actions['EMPTY1'])\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "states",
+        "kind": 5,
+        "importPath": "exercicio4.WaterJars",
+        "description": "exercicio4.WaterJars",
+        "peekOfCode": "states = {\n    'EMPTY': 0,\n    'L1': 1,\n    'L2': 2,\n    'L3': 3,\n    'L4': 4\n}\nactions = {\n    'FILL1': 'fill-jar-1',\n    'FILL2': 'fill-jar-2',",
+        "detail": "exercicio4.WaterJars",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.WaterJars import states\n```\n\n```python\n\n\n```\n\n```python\nstates = {\n    'EMPTY': 0,\n    'L1': 1,\n    'L2': 2,\n    'L3': 3,\n    'L4': 4\n}\nactions = {\n    'FILL1': 'fill-jar-1',\n    'FILL2': 'fill-jar-2',\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "actions",
+        "kind": 5,
+        "importPath": "exercicio4.WaterJars",
+        "description": "exercicio4.WaterJars",
+        "peekOfCode": "actions = {\n    'FILL1': 'fill-jar-1',\n    'FILL2': 'fill-jar-2',\n    'EMPTY1': 'empty-jar-1',\n    'EMPTY2': 'empty-jar-2',\n    'TRANSFER1TO2': 'transfer-jar-1-to-2',\n    'TRANSFER2TO1': 'transfer-jar-2-to-1'\n}\nclass WaterJars:\n  def __init__(self, jar1State, jar2State):",
+        "detail": "exercicio4.WaterJars",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.WaterJars import actions\n```\n\n```python\n\n\n```\n\n```python\nactions = {\n    'FILL1': 'fill-jar-1',\n    'FILL2': 'fill-jar-2',\n    'EMPTY1': 'empty-jar-1',\n    'EMPTY2': 'empty-jar-2',\n    'TRANSFER1TO2': 'transfer-jar-1-to-2',\n    'TRANSFER2TO1': 'transfer-jar-2-to-1'\n}\nclass WaterJars:\n  def __init__(self, jar1State, jar2State):\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "initial",
+        "kind": 5,
+        "importPath": "exercicio4.WaterJars",
+        "description": "exercicio4.WaterJars",
+        "peekOfCode": "initial = WaterJars(states['EMPTY'], states['EMPTY'])\nfinals = [\n        WaterJars(states['EMPTY'], states['L2']),\n        WaterJars(states['L1'], states['L2']),\n        WaterJars(states['L2'], states['L2']),\n        WaterJars(states['L3'], states['L2'])\n]\nproblem = UninformedSearch(initial, finals)\nresult = problem.search(algorithms['DSF'])\nif (result):",
+        "detail": "exercicio4.WaterJars",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.WaterJars import initial\n```\n\n```python\n\n\n```\n\n```python\ninitial = WaterJars(states['EMPTY'], states['EMPTY'])\nfinals = [\n        WaterJars(states['EMPTY'], states['L2']),\n        WaterJars(states['L1'], states['L2']),\n        WaterJars(states['L2'], states['L2']),\n        WaterJars(states['L3'], states['L2'])\n]\nproblem = UninformedSearch(initial, finals)\nresult = problem.search(algorithms['DSF'])\nif (result):\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "finals",
+        "kind": 5,
+        "importPath": "exercicio4.WaterJars",
+        "description": "exercicio4.WaterJars",
+        "peekOfCode": "finals = [\n        WaterJars(states['EMPTY'], states['L2']),\n        WaterJars(states['L1'], states['L2']),\n        WaterJars(states['L2'], states['L2']),\n        WaterJars(states['L3'], states['L2'])\n]\nproblem = UninformedSearch(initial, finals)\nresult = problem.search(algorithms['DSF'])\nif (result):\n  for r in result:",
+        "detail": "exercicio4.WaterJars",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.WaterJars import finals\n```\n\n```python\n\n\n```\n\n```python\nfinals = [\n        WaterJars(states['EMPTY'], states['L2']),\n        WaterJars(states['L1'], states['L2']),\n        WaterJars(states['L2'], states['L2']),\n        WaterJars(states['L3'], states['L2'])\n]\nproblem = UninformedSearch(initial, finals)\nresult = problem.search(algorithms['DSF'])\nif (result):\n  for r in result:\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "problem",
+        "kind": 5,
+        "importPath": "exercicio4.WaterJars",
+        "description": "exercicio4.WaterJars",
+        "peekOfCode": "problem = UninformedSearch(initial, finals)\nresult = problem.search(algorithms['DSF'])\nif (result):\n  for r in result:\n    print(r)",
+        "detail": "exercicio4.WaterJars",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.WaterJars import problem\n```\n\n```python\n\n\n```\n\n```python\nproblem = UninformedSearch(initial, finals)\nresult = problem.search(algorithms['DSF'])\nif (result):\n  for r in result:\n    print(r)\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "exercicio4.WaterJars",
+        "description": "exercicio4.WaterJars",
+        "peekOfCode": "result = problem.search(algorithms['DSF'])\nif (result):\n  for r in result:\n    print(r)",
+        "detail": "exercicio4.WaterJars",
+        "documentation": {
+            "value": "\n```python\nfrom exercicio4.WaterJars import result\n```\n\n```python\n\n\n```\n\n```python\nresult = problem.search(algorithms['DSF'])\nif (result):\n  for r in result:\n    print(r)\n```\n",
+            "supportThemeIcons": false
+        }
+    }
+]
