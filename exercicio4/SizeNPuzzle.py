@@ -1,5 +1,5 @@
-from algorithms.UninformedSearch import UninformedSearch
-from algorithms.UninformedSearch import algorithms
+from UninformedSearch import UninformedSearch
+from UninformedSearch import algorithms
 
 actions = {
     'MOVEUP': 'move-up',
@@ -29,9 +29,6 @@ class SizeNPuzzle:
       if (j != -1):
         break
 
-    #print("linha: ", i)
-    #print("coluna: ", j)
-
     if (action == actions['MOVEDOWN']):
       state.matrix[i][j] = self.matrix[i + 1][j]
       state.matrix[i + 1][j] = None
@@ -46,7 +43,7 @@ class SizeNPuzzle:
       state.matrix[i][j + 1] = None
     
 
-    #print(state)
+
     return state
 
 
@@ -55,7 +52,7 @@ class SizeNPuzzle:
     i = 0
     j = None
 
-    #print(self.matrix)
+
     while (i < len(self.matrix)):
       m = self.findNone(self.matrix)
       j = m[1]
@@ -63,8 +60,7 @@ class SizeNPuzzle:
       if (j != -1):
         break
 
-    #print("linha: ", i)
-    #print("coluna: ", j)
+
 
     if (i + 1 < len(self.matrix)):
       lista.append(actions['MOVEDOWN'])

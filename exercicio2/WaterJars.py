@@ -1,6 +1,5 @@
-from algorithms.UninformedSearch import UninformedSearch
-from algorithms.UninformedSearch import algorithms
-
+from UninformedSearch import UninformedSearch
+from UninformedSearch import algorithms
 
 states = {
     'EMPTY': 0,
