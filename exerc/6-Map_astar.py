@@ -119,12 +119,12 @@ class AStar:
     elif (action == actions["GOTOSIBIU"]):
       if(state.local == city["ARAD"]):
         state.distance = 140
+      elif(state.local == city["ORADEA"]):
+        state.distance = 151
       elif(state.local == city["FAGARAS"]):
         state.distance = 99
       elif(state.local == city["RIMNICU"]):
         state.distance = 80
-      elif(state.local == city["ORADEA"]):
-        state.distance = 151
 
       state.local = city["SIBIU"]
 
@@ -164,12 +164,6 @@ class AStar:
 
       state.local = city["RIMNICU"]
 
-    elif (action == actions["GOTOBUCHAREST"]):
-      if(state.local == city["FAGARAS"]):
-        state.distance = 211
-      
-      state.local = city["BUCHAREST"]
-
     elif (action == actions["GOTOPITESTI"]):
       if(state.local == city["RIMNICU"]):
         state.distance = 97
@@ -181,6 +175,12 @@ class AStar:
         state.distance = 146
 
       state.local = city["CRAIOVA"]
+
+    elif (action == actions["GOTOBUCHAREST"]):
+      if(state.local == city["FAGARAS"]):
+        state.distance = 211
+      
+      state.local = city["BUCHAREST"]
 
     elif (action == actions["GOTOLUGOJ"]):
       if(state.local == city["TIMISUARA"]):
