@@ -33,12 +33,6 @@ actions = {
   'GOTODOBRETA': 'go-to-dobreta',
 }
 
-distance = {
-  'ARADTOZERIND': 75,
-  'ARADTOSIBIU': 140,
-  'ARADTOTIMISUARA': 118
-}
-
 class AStar:
   def __init__(self, local, distance=0):
     self.local = local
